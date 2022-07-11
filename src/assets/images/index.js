@@ -1,0 +1,15 @@
+export const appImages = {
+  // launch: require('./launch.png'),
+  // feedbackImage: require('./feedbackImage.png'),
+  // backgroundImg: require('./backgroundImg.png'),
+  BestKeptMemories: require('./BestKeptMemories.png'),
+  loginBackgroundImg: require('./loginBackgroundImg.png'),
+  undrawwelcome: require('./undraw_welcome.png'),
+  undrawLoving: require('./undraw_Loving.png'),
+  undrawBrowserstats: require('./undraw_Browser_stats.png'),
+  undrawImagefolder: require('./undraw_Image_folder.png'),
+  undrawPhotos: require('./undraw_Photos.png'),
+  undrawcontact: require('./undraw_contact.png'),
+  profileImg: require('./profileImg.png'),
+  // backgroundImage: require('./backgroundImage.png'),
+};

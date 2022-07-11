@@ -1,0 +1,118 @@
+import {StyleSheet, Platform} from 'react-native';
+import {colors, WP, HP, size, family} from '../../../services';
+
+export const styles = StyleSheet.create({
+  container: {
+    backgroundColor: 'transparent',
+    flex: 1,
+  },
+  backArrowContainer: {
+    height: HP('4'),
+    width: WP('7'),
+    backgroundColor: 'transparent',
+    marginTop: WP('5'),
+    justifyContent: 'center',
+    marginHorizontal: WP('4'),
+  },
+  backArrowStyle: {
+    height: HP('3'),
+    width: WP('5'),
+    resizeMode: 'contain',
+  },
+  myBestMemoriesImgCont: {
+    width: WP('100'),
+    backgroundColor: 'transparent',
+    justifyContent: 'center',
+    marginTop: HP('5'),
+  },
+  myBestMemoriesImgStyle: {
+    height: HP('6'),
+    width: WP('70'),
+    resizeMode: 'center',
+    backgroundColor: 'transparent',
+  },
+  subTitleTextContainer: {
+    height: HP('5'),
+    width: WP('100'),
+    backgroundColor: 'transparent',
+    marginTop: HP('-2'),
+    justifyContent: 'space-between',
+    borderBottomWidth: WP('0.1'),
+    borderBottomColor: colors.white,
+    flexDirection: 'row',
+    alignSelf: 'center',
+  },
+  subTitleTextStyle: {
+    fontSize: size.tiny,
+    color: colors.white,
+    marginTop: HP('2'),
+    marginLeft: WP('3'),
+  },
+  editIconContStyle: {
+    height: HP('5'),
+    width: WP('7'),
+    backgroundColor: 'transparent',
+    marginRight: WP('3'),
+  },
+  profileIconStyle: {
+    height: HP('3'),
+    width: WP('5'),
+    resizeMode: 'contain',
+    marginRight: WP('3'),
+  },
+  contactUsTextStyle: {
+    fontSize: size.h3,
+    color: colors.white,
+    marginTop: WP('5'),
+    alignSelf: 'center',
+  },
+  avatarMainContainer: {
+    height: HP('15'),
+    width: WP('100'),
+    alignItems: 'center',
+    flexDirection: 'row',
+    // marginVertical: HP('1'),
+  },
+  userNameTextStyle: {
+    fontSize: size.xxlarge,
+    color: colors.white,
+  },
+  textInputMainContainer: {
+    height: HP('7'),
+    width: WP('100'),
+    backgroundColor: 'transparent',
+    flexDirection: 'row',
+    borderBottomWidth: WP('0.3'),
+    borderBottomColor: colors.white_1,
+    alignItems: 'center',
+  },
+  textInputImgStyle: {
+    height: HP('3'),
+    width: WP('5'),
+    resizeMode: 'contain',
+    marginLeft: WP('3'),
+    alignSelf: 'center',
+  },
+  textInputStyle: {
+    height: HP('7'),
+    width: WP('100'),
+    marginTop: HP('1'),
+    alignSelf: 'center',
+    backgroundColor: 'transparent',
+    paddingHorizontal: WP('4'),
+  },
+  bottomTextContainer: {
+    height: HP('5'),
+    // width: WP('30'),
+    marginTop: HP('5'),
+    alignSelf: 'center',
+    backgroundColor: 'transparent',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  bottomTextStyle: {
+    fontSize: size.small,
+    color: colors.white,
+    fontWeight: 'bold',
+  },
+});
